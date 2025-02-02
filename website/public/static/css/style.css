@@ -1,0 +1,102 @@
+/* Background */
+body {
+    /* The image used */
+    background-image: url("/static/bg.min.svg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html{
+    /* always show horizontal scrollbar to prevent bg resize */
+    overflow-y:scroll;
+}
+
+/* Force footer to bottom of page */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+}
+
+/* limit image width to its container */
+img {
+    max-width: 100%;
+}
+
+/* Make pager buttons same width */
+.pagination > li.page-item {
+    text-align: center;
+    min-width: 3em !important;
+}
+
+/* 
+Defence against email harvesters 
+    local<span class="spamprotection">YOUAREAVERYBADBOT</span>domain.cz
+    <img class="spamprotection" src="/static/email-white.png"/>
+*/
+span.spamprotection {
+    display:none;
+}
+img.spamprotection {
+    display: inline;
+    height: 1.1em;
+}
+
+/* Bootstrap Flatly: Converted to orange (Hue set to 30) */
+/* #18BC9C -> #bc6a18 */
+/* #0f7864 -> #78440f */
+/* #3be6c4 -> #e6913b */
+/* #ecf0f1 -> #f1efec */
+/* #95a5a6 -> #a69e95 */
+
+a {
+    color: #e6913b;
+}
+
+a:hover {
+    color: #bc6a18;
+}
+
+.page-link {
+    background-color: #bc6a18;
+}
+
+.page-link:hover {
+    background-color: #e6913b;
+}
+
+.page-item.active .page-link {
+    background-color: #e6913b;
+}
+
+.page-item.disabled .page-link {
+    color: #f1efec;
+    background-color: #78440f;
+}
+
+.btn-link {
+    color: #e6913b;
+}
+
+.btn-link:hover {
+    color: #bc6a18; 
+}
+
+.btn-link:disabled, .btn-link.disabled {
+    color: #a69e95;
+}

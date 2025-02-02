@@ -1,0 +1,14 @@
+/* TEAM */
+
+    Main Developer: Jiří Kuneš
+    Contact: jirka642 [at] gmail.com
+    LinkedIn: linkedin.com/in/jiří-kuneš-693ba870/
+    Twitter: @jirka642
+    From: Pilsen, Czech Republic
+
+
+/* SITE */
+
+    Last update: 2020/08/23
+    Language: Czech / English
+    Doctype: HTML5

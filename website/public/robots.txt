@@ -1,0 +1,4 @@
+# Block bots
+
+User-agent: AdsBot-Google
+Disallow: /

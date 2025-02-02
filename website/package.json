@@ -1,0 +1,17 @@
+{
+    "name": "jirikunes.eu",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "postcss": "8.4.24",
+        "sass": "1.63.4",
+        "vite": "4.3.9"
+    }
+}
