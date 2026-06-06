@@ -8,11 +8,11 @@ Source of the jirikunes.eu web page.
 ### Install Node.js
 
 ```bash
-nvm install 16.20
-nvm use 16.20
+nvm install 25
+nvm use 25
 ```
 
-If you are running this with Pycharm, the NVM ENV variables must be copied from `~/.bashrc` to `~/.profile`. These ones:
+If you are running this with PyCharm, the NVM ENV variables must be copied from `~/.bashrc` to `~/.profile`. These ones:
 
 ```
 export NVM_DIR="$HOME/.nvm"
